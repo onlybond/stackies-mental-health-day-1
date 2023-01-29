@@ -38,6 +38,11 @@ img{
 .celebrate{
     width: 40px;
 }
-ul{
-    /* list-style: none; */
+@media (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
